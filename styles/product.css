@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; /* Светло-голубой фон */
+    color: #333;
+ }
+/* header and logo */
+.header1 {
+    width: 80%;
+    margin: auto;
+}
+.logo1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+}
+header {
+    background: #a8d0e6; /* цвет */
+    color: #fff;
+    padding: 20px;
+    display: flex; 
+    align-items: center; 
+}
+
+header .logo {
+    margin-right: 20px; 
+    width: 50px; 
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+
+/* навигация */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700; /* Золотистый при наведении на текст в навигации */
+}
+
+
+/* Стили для основной части */
+main {
+    padding: 30px;
+}
+
+.opisanie {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.opisanie img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.opisanie h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.opisanie .price {
+    font-weight: bold;
+}
+
+/* Описание курса */
+.opisanie p {
+   font-size :1.1em; 
+   line-height :1.6; 
+   margin-bottom :15px; 
+}
+
+/* Список пунктов описания */
+.opisanie ul {
+   list-style :disc; 
+   margin-left :30px; 
+}
+
+/* Отзывы */
+.opisanie .otzivi {
+   margin-top :20px; 
+}
+
+/* Кнопка "Купить" */
+.opisanie button {
+    background-color :#f1faee; /* Светло-зеленый */
+    color :#457b9d; /* Пастельный синий */
+    border :none; 
+    padding :14px 40px; 
+    border-radius :8px; 
+    cursor:pointer; }
+
+
+footer {
+   text-align:center; 
+   padding :20px; 
+   background :#a8d0e6; /* Пастельный голубой */ 
+   color :#fff; 
+}
+
+
+/* Адаптивные стили */
+@media only screen and (max-width :768px) {
+
+   .header1 {
+       width :90%; 
+       padding-left :10px; 
+       padding-right :10px; 
+   }
+
+   header h1 {
+       font-size :2em; 
+   }
+
+   nav ul li {
+       display:block; 
+       margin-bottom :10px; 
+       text-align:center; 
+   }
+
+   main {
+       padding :20px; 
+   }
+
+}
