@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./assets/images/logo.svg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>SKILL SCHOOL</title>
+</head>
+<body>
+
+        <header>
+             <div class="header1">
+                <div class="logo1">
+                    <img src="./assets/images/logo.svg" alt="Skill School Logo" class="logo">
+                    <h1>Skill School</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#products">Курсы</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div id="products" class="container">
+            <h2>Наши Курсы</h2>
+    
+            <!-- Блок сортировки -->
+            <div class="sortirovka">
+                <text for="sort">Сортировать по:</text>
+                <select id="sort" name="sort">
+                    <option value="popular">Популярности</option>
+                    <option value="price_up">Цене (возрастание)</option>
+                    <option value="price_down">Цене (убывание)</option>
+                    <option value="newest">Новизне</option>
+                </select>
+            </div>
+    
+            <div class="products">
+                <!-- Курсы -->
+                <div class="product-card">
+                    <img src="./assets/images/banner_prod.svg" alt="Курс 1">
+                    <h3>Как стать миллионером за неделю</h3>
+                    <p>Уникальная методика быстрого обогащения.</p>
+                    <p class="price">Цена: 9999 ₽</p>
+                    <button onclick="location.href=' ./pages/product1.html'">Купить</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="assets/images/banner_prod.svg" alt="Курс 2">
+                    <h3>Искусство влияния на людей</h3>
+                    <p>Станьте мастером манипуляций.</p>
+                    <p class="price">Цена: 12000 ₽</p>
+                    <button onclick="location.href='./pages/product2.html'">Купить</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="assets/images/banner_prod.svg" alt="Курс 3">
+                    <h3>Тайные знания древних цивилизаций</h3>
+                    <p>Раскройте секреты успеха и процветания.</p>
+                    <p class="price">Цена: 15000 ₽</p>
+                    <button onclick="location.href='./pages/product3.html'">Купить</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="assets/images/banner_prod.svg" alt="Курс 4">
+                    <h3>Как выигрывать в казино всегда</h3>
+                    <p>Стратегии и секреты от профессиональных игроков.</p>
+                    <p class="price">Цена: 11000 ₽</p>
+                    <button onclick="location.href='./pages/product4.html'">Купить</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="assets/images/banner_prod.svg" alt="Курс 5">
+                    <h3>Энергия денег: Привлечение богатства</h3>
+                    <p>Медитации и практики для финансового успеха.</p>
+                    <p class="price">Цена: 13000 ₽</p>
+                    <button onclick="location.href='./pages/product5.html'">Купить</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="assets/images/banner_prod.svg" alt="Курс 6">
+                    <h3>Секреты идеальных отношений</h3>
+                    <p>Как найти свою половинку и удержать ее.</p>
+                    <p class="price">Цена: 10000 ₽</p>
+                    <button onclick="location.href='./pages/product6.html'">Купить</button>
+                </div>
+        
+                 <!-- Курс 7 -->
+                 <div class="product-card">
+                    <img src="assets/images/banner_prod.svg" alt="Курс 7">
+                    <h3>Увеличение дохода с помощью нейросетей</h3>
+                    <p>Построй свой бизнес с помощью ИИ.</p>
+                    <p class="price">Цена: 16000 ₽</p>
+                     <button onclick="location.href='./pages/product7.html'">Купить</button>
+                </div>
+        
+                <!-- Курс 8 -->
+                <div class="product-card">
+                    <img src="assets/images/banner_prod.svg" alt="Курс 8">
+                    <h3>Обучение магии и волшебству</h3>
+                    <p>Стань настоящим магом!</p>
+                    <p class="price">Цена: 14000 ₽</p>
+                    <button onclick="location.href='./pages/product8.html'">Купить</button>
+                </div>
+        
+                <!-- Курс 9 -->
+                <div class="product-card">
+                    <img src="assets/images/banner_prod.svg" alt="Курс 9">
+                    <h3>Развитие личной эффективности и мотивации</h3>
+                    <p>Успех каждый день!</p>
+                    <p class="price">Цена: 11500 ₽</p>
+                    <button onclick="location.href='./pages/product9.html'">Купить</button>
+                </div>
+        
+                <!-- Курс 10 -->
+                <div class="product-card">
+                    <img src="assets/images/banner_prod.svg" alt="Курс 10">
+                    <h3>Тайм-менеджмент для чайников</h3>
+                    <p>Управляй своим временем.</p>
+                    <p class="price">Цена: 12500 ₽</p>
+                    <button onclick="location.href='./pages/product10.html'">Купить</button>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="container">
+            <p>&copy; Skill School, Все права защищены.</p>
+        </footer>
+        
+        
+        
+    </body>
+    </html>
+    
